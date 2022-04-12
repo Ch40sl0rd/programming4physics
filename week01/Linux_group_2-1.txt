@@ -1,0 +1,59 @@
+1.  Basic shell commands group
+
+1.
+When you open a new terminal you are in your home directroy
+To display the current directroy:
+>pwd
+
+2.
+>echo $SHELL
+
+3.
+
+
+4.
+>mkdir ~/test1
+
+5.
+>cp me.txt ~/test1/me_copy.txt
+
+6.
+absolute path
+
+7.
+>cd test1
+
+8.
+>mv test1/me_copy.txt test1/me_renames.txt
+
+9.
+>echo "date of birth" > me_copy.txt
+
+10.
+>diff me.txt me_copy.txt
+
+11.
+>ls -l
+
+the me_copy.txt is larger because we appended the birth date
+
+12.
+>ssh uniID@cip-pool.physik.uni-bonn.de
+>mkdir python_course
+>logout
+
+13.
+scp me.txt me_copy.txt uniID@cip-pool.physik.uni-bonn.de:python_course
+
+13.2.
+>rm -r test1
+
+14.
+>tar -czf test2.tar.gz 
+
+15.
+>tar -xzf test2.tar.gz test3
+
+
+
+
