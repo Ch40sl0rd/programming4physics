@@ -54,6 +54,28 @@ scp me.txt me_copy.txt uniID@cip-pool.physik.uni-bonn.de:python_course
 15.
 >tar -xzf test2.tar.gz test3
 
+Exercise 2:
 
+1.
+> cat test.dat | xargs cat
 
+2.
+> awk '{print $1 + $2; print $1 "\t" $2}' numbersColums
+> awk '{sum1 += $1; sum2 += $2} END{print sum1 "\t" sum2}' numbersColums
 
+3.
+
+4.
+>find ~ -name "*.txt"
+
+5.
+>find ~ -name "*.txt" | wc -l
+
+6.
+
+7.
+for i in ./*.txt
+do 
+    echo $i
+    mv $i ${i::-4}.txt.old
+done
