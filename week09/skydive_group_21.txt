@@ -1,0 +1,5 @@
+Here are the answers of the questions:
+3) Maximum abolsute velocity: 341.6 m/s
+4) Final speed at surface: 5.0 m/s
+5) Total duration of the jump: 581.2 s
+6) Why does his velocity decrease before opening the parachute? The velocity decreases even before opening the parachute, because the air density increases, which therefore increases drag which slows him down.
